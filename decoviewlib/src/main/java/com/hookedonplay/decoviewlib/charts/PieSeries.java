@@ -20,12 +20,13 @@ import android.graphics.Path;
 import android.graphics.RectF;
 import android.graphics.Region;
 import android.graphics.Shader;
-import android.support.annotation.NonNull;
 import android.util.Log;
 
 import com.hookedonplay.decoviewlib.DecoView;
 
 import java.util.ArrayList;
+
+import androidx.annotation.NonNull;
 
 public class PieSeries extends ArcSeries {
     public PieSeries(@NonNull SeriesItem seriesItem, int totalAngle, int rotateAngle) {

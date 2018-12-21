@@ -18,12 +18,13 @@ package com.hookedonplay.decoviewlib.events;
 import android.graphics.Canvas;
 import android.graphics.Color;
 import android.graphics.RectF;
-import android.support.annotation.NonNull;
 import android.util.Log;
 import android.view.View;
 import android.view.animation.Interpolator;
 
 import com.hookedonplay.decoviewlib.charts.DecoDrawEffect;
+
+import androidx.annotation.NonNull;
 
 /**
  * Encapsulates a scheduled operation to perform on the {@link com.hookedonplay.decoviewlib.DecoView}

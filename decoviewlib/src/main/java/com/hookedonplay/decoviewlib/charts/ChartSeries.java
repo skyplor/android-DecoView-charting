@@ -19,7 +19,6 @@ import android.graphics.Canvas;
 import android.graphics.Color;
 import android.graphics.Paint;
 import android.graphics.RectF;
-import android.support.annotation.NonNull;
 import android.util.Log;
 import android.view.animation.Interpolator;
 import android.view.animation.LinearInterpolator;
@@ -29,6 +28,8 @@ import com.hookedonplay.decoviewlib.events.DecoEvent;
 import com.nineoldandroids.animation.Animator;
 import com.nineoldandroids.animation.AnimatorListenerAdapter;
 import com.nineoldandroids.animation.ValueAnimator;
+
+import androidx.annotation.NonNull;
 
 /**
  * ChartSeries is the implementation of one series of data.

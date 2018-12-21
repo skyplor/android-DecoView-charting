@@ -16,7 +16,8 @@
 package com.hookedonplay.decoviewlib.charts;
 
 import android.graphics.Path;
-import android.support.annotation.NonNull;
+
+import androidx.annotation.NonNull;
 
 /**
  * EdgeDetail allows the addition of a shadow effect on the edge of the series. This can be

@@ -20,7 +20,8 @@ import android.graphics.Color;
 import android.graphics.Matrix;
 import android.graphics.RectF;
 import android.graphics.SweepGradient;
-import android.support.annotation.NonNull;
+
+import androidx.annotation.NonNull;
 
 abstract public class ArcSeries extends ChartSeries {
     /**

@@ -19,12 +19,13 @@ import android.graphics.Canvas;
 import android.graphics.Path;
 import android.graphics.RectF;
 import android.graphics.Region;
-import android.support.annotation.NonNull;
 import android.util.Log;
 
 import com.hookedonplay.decoviewlib.DecoView;
 
 import java.util.ArrayList;
+
+import androidx.annotation.NonNull;
 
 /**
  * Concrete class to use for Arc based line chart type drawing

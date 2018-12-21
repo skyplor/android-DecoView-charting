@@ -22,10 +22,11 @@ import android.graphics.Paint;
 import android.graphics.Rect;
 import android.graphics.RectF;
 import android.graphics.Typeface;
-import android.support.annotation.NonNull;
-import android.support.annotation.Nullable;
 
 import com.hookedonplay.decoviewlib.util.GenericFunctions;
+
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
 
 /**
  * Label for one series of data. One DecoView chart can have many series and each series can have

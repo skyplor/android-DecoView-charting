@@ -17,12 +17,14 @@ package com.hookedonplay.decoviewlib.events;
 
 import android.os.Build;
 import android.os.Handler;
-import android.support.annotation.NonNull;
 import android.view.View;
 import android.view.animation.AlphaAnimation;
 import android.view.animation.Animation;
 import android.widget.TextView;
+
 import com.hookedonplay.decoviewlib.charts.DecoDrawEffect;
+
+import androidx.annotation.NonNull;
 
 /**
  * Event manager for processing {@link DecoEvent} at the scheduled time (or immediately if no

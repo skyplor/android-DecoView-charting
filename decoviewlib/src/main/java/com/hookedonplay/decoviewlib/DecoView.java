@@ -22,10 +22,10 @@ import android.graphics.Color;
 import android.graphics.Path;
 import android.graphics.RectF;
 import android.os.Build;
-import android.support.annotation.NonNull;
 import android.util.AttributeSet;
 import android.util.Log;
 import android.view.View;
+
 import com.hookedonplay.decoviewlib.charts.ChartSeries;
 import com.hookedonplay.decoviewlib.charts.DecoDrawEffect;
 import com.hookedonplay.decoviewlib.charts.LineArcSeries;
@@ -37,6 +37,8 @@ import com.hookedonplay.decoviewlib.events.DecoEventManager;
 import com.hookedonplay.decoviewlib.util.GenericFunctions;
 
 import java.util.ArrayList;
+
+import androidx.annotation.NonNull;
 
 /**
  * Android Custom View for displaying animated Arc based charts
